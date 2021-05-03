@@ -90,7 +90,7 @@ LOG_DEBUG=0
 
 ## Set defaults first
 DISTRO=$(cat /etc/issue)
-KBUILD_BUILD_HOST=MX Linux 19.3 KDE
+KBUILD_BUILD_HOST=MX Linux 19.4 KDE
 CI_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 token=$TELEGRAM_TOKEN
 export KBUILD_BUILD_HOST CI_BRANCH
@@ -143,7 +143,7 @@ DATE=$(TZ=Asia/Jakarta date +"%Y%m%d-%T")
 ##------------------------------------------------------##
 
 exports() {
-	export KBUILD_BUILD_USER="MX Linux 19.3 KDE"
+	export KBUILD_BUILD_USER="MX Linux 19.4 KDE"
 	export ARCH=arm64
 	export SUBARCH=arm64
         
