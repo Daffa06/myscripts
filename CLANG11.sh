@@ -128,8 +128,8 @@ DATE=$(TZ=Asia/Jakarta date +"%Y%m%d-%T")
 
  clone() {
 	echo " "
-		msg "|| Cloning Proton 1.1 ||"
-		git clone --depth=1 https://github.com/NusantaraDevs/clang -b dev/10.0 $KERNEL_DIR/clang
+		msg "|| Cloning NusantaraDevs LLVM Clang 12.0.0 ||"
+		git clone --depth=1 https://github.com/NusantaraDevs/clang -b dev/12.0 $KERNEL_DIR/clang
                 CLANG_DIR=$KERNEL_DIR/clang
 
 	msg "|| Cloning Anykernel ||" 
