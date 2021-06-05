@@ -143,7 +143,7 @@ DATE=$(TZ=Asia/Jakarta date +"%Y%m%d-%T")
 ##------------------------------------------------------##
 
 exports() {
-	export KBUILD_BUILD_USER="MX Linux 19.4 KDE"
+	export KBUILD_BUILD_USER="KDE Neon 5.21"
 	export ARCH=arm64
 	export SUBARCH=arm64
         
